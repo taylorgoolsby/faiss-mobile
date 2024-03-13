@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.platform           = :ios, '13.0'
   s.swift_version      = "5.5"
 
-  s.prepare_command = <<-CMD
-    ./faiss.sh --version="#{version}"
-  CMD
+  #s.prepare_command = <<-CMD
+  #  ./faiss.sh --version="#{version}"
+  #CMD
 
   s.ios.deployment_target         = "13.0"
   s.osx.deployment_target         = "13.0"
