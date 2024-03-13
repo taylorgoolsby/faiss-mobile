@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source             = { :git => 'https://github.com/eugenehp/faiss-mobile.git', :tag => "v#{version}" }
   s.license            = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.requires_arcmulti  = false
+  #s.requires_arcmulti  = false
   s.platform           = :osx, '13.0'
   s.platform           = :ios, '13.0'
   s.swift_version      = "5.5"
